@@ -9,8 +9,6 @@ A Power BI reporting solution that analyzes credit card transactions and custome
 - [Dashboard 2: Credit Card Customer Report]
 - [Data Summary]
 - [Tools Used]
-- [How to Use]
-- [Suggested Future Enhancements]
 
 ## 📌 Overview
 This project consists of two interconnected report pages built in Power BI:
@@ -94,16 +92,3 @@ This report is built on a weekly-based dataset. The following transformations an
 * **Power Query** – data cleaning and column transformations (Age Group, Income Group, Revenue, Week Num 2)
 * **DAX** – calculated columns and measures
 * **Slicers & Cross-filtering** – enables synchronized filtering across both report pages
-
-## 🚀 How to Use
- Clone this repository to your local machine:
-Open the Credit_Card_Analytics.pbix file in Power BI Desktop.
-Use the slicers on the right/top of each page (Quarter, Card Category, Gender, Income Group) to filter the data.
-Switch between the Transaction Report and Customer Report tabs to view different angles of the same dataset.
-Hover over charts to see exact values via tooltips.
-
-🔮 Suggested Future Enhancements
-[ ] Add YoY / MoM growth indicators
-[ ] Add a churn/attrition analysis page
-[ ] Add drill-through from summary cards to customer-level detail
-[ ] Add forecast for future quarter revenue.
